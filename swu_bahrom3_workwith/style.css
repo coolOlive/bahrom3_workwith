@@ -1,0 +1,168 @@
+.background {
+    background-color: #2180A4;
+    height: 2000px;
+    position: relative;
+    width: 500px;
+    margin: 0 auto;
+    border-radius: 1em;
+}
+
+#loading {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    display: block;
+    margin: 0 auto;
+    opacity: 0.8;
+    background: white;
+    z-index: 99;
+    text-align: center;
+}
+
+#loading > img {
+    position: absolute;
+    top: 200px;
+    left: 30%;
+    margin: 0 auto;
+    width: 200px;
+    z-index: 100;
+
+}
+
+.visiters {
+    background-color: #2180A4;
+}
+
+.container {
+    width: 540px;
+}
+
+#title-img {
+    width: 200px;
+    height: 30px;
+}
+
+
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+.mid-start {
+    display: flex;
+    flex-direction: column;
+}
+
+#img-box {
+    width: 230px;
+    height: 230px;
+    margin: 0 auto;
+}
+
+.question {
+    display: none;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.starttext{
+    font-family: 'Dongle', sans-serif;
+    font-size: 60px;
+    margin: 0 auto;
+}
+
+
+.result {
+    display: none;
+}
+
+.rogotitle {
+    width: 250px;
+    margin: 0 auto;
+}
+
+
+#result-title {
+    width: 250px;
+    margin: 0 auto;
+}
+
+#result_main_img {
+    width: 230px;
+    height: 230px;
+    margin: 0 auto;
+}
+
+#result_sub_title_img {
+    width: 360px;
+    margin: 0 auto;
+}
+
+#explain-img {
+    position: relative;
+    width: 95%;
+    margin: 0 auto;
+}
+
+#book_explain_img {
+    width: 530px;
+    margin-left: -45px;
+}
+
+#culture_img {
+    width: 530px;
+    margin-left: -45px;
+}
+
+#source_book {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.share_choose {
+    margin: 0 auto;
+}
+
+body * {
+    font: bold arial, helvetica, sans-serif;
+    font-family: "Helvetica Nene", Helvetica, Arial, sans-serif;
+    font-family: "Noto Sans KR";
+}
+
+
+.questText{
+    font-family: 'Poor Story', cursive;
+    font-size: 23px;
+    margin: 0 auto;
+    height: 210px;
+    width: 90%;
+}
+
+button {
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Poor Story', cursive;
+    margin: 0 auto;
+} 
+.btnab {
+    font: bold arial, helvetica, sans-serif;
+    font-family: "Noto Sans KR";
+    width: 90%;
+    height: 120px;
+    font-size: 15px;
+    margin: 0 auto;
+    
+} 
+
+.sharBut {
+    margin: 0 auto;
+}
+
+#made_by {
+    font-family: 'Poor Story', cursive;
+    font-size: 13px;
+    margin: 0 auto;
+    width: 100%;
+}
